@@ -81,5 +81,5 @@ local args = {
 }
 
 workspace.UserData.User_428940874.UpdateClothing_Feet:FireServer(unpack(args))
-wait() end
+wait()
 end)

@@ -1,73 +1,22 @@
-While true do
-local args = {
-    [1] = "Up"
-}
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-workspace.UserData.User_428940874.UpdateClothing_Hair_Color:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
 
-workspace.UserData.User_428940874.UpdateClothing_Hair:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
+funaction Script()
+local Window = Library.CreateLib("Opl:anarchy Script Made by Cat#2728", "DarkTheme")
+local Tab = Window:NewTab("Npc")
+Section:NewButton("Santa Present", "Gives Santa Present", function()
+workspace.Merchants.SantaMerchant.Clickable.Retum:FireServer()
+end)
 
-workspace.UserData.User_428940874.UpdateClothing_Torso:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
 
-workspace.UserData.User_428940874.UpdateClothing_Arms:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
+local Tab = Window:NewTab("misc")
 
-workspace.UserData.User_428940874.UpdateClothing_Legs:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
 
-workspace.UserData.User_428940874.UpdateClothing_Skin:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
 
-workspace.UserData.User_428940874.UpdateClothing_Hands:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
 
-workspace.UserData.User_428940874.UpdateClothing_Feet:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
 
-workspace.UserData.User_428940874.UpdateClothing_Hair_Color:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
 
-workspace.UserData.User_428940874.UpdateClothing_Torso_Color:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
 
-workspace.UserData.User_428940874.UpdateClothing_Arms_Color:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
-
-workspace.UserData.User_428940874.UpdateClothing_Legs_Color:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
-
-workspace.UserData.User_428940874.UpdateClothing_Hands_Color:FireServer(unpack(args))
-local args = {
-    [1] = "Up"
-}
-
-workspace.UserData.User_428940874.UpdateClothing_Feet_Color:FireServer(unpack(args))
-Wait()
-End
+If game.PlaceId == 8569358381 then
+ Script()
+end

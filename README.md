@@ -3,6 +3,10 @@ local Window = Library.CreateLib("Cat Hub V 0.0.0 | This Gui Made By Cat#2728", 
 
 local Main = Window:NewTab("Npc")
 local MainSection = Main:NewSection("Npc")
-Section:NewButton("Santa", "Gives Santa Present", function()
+
+
+-- Script
+
+MainSection:NewButton("Santa", "Gives Santa Present", function()
     workspace.Merchants.SantaMerchant.Clickable.Retum:FireServer()
 end)

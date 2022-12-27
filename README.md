@@ -43,6 +43,18 @@ Section:NewButton("Gun Seller", "Teleports you to gun seller", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1843, 222, 3408)
 end)
 
+Section:NewButton("Emote", "Teleports you to emote seller", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1517, 260, 2166)
+end)
+
+Section:NewButton("Affinity", "Teleports you to affinity merchant", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(117, 278, 4948)
+end)
+
+Section:NewButton("Mixer", "Teleports you to mixer and fish merchant", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1991, 218, 566)
+end)
+
 local Main = Window:NewTab("Island")
 local MainSection = Main:NewSection("Island")
 --script

@@ -65,83 +65,83 @@ end)
 
 local Main = Window:NewTab("Island")
 local MainSection = Main:NewSection("Island")
-MainSection:NewButton("Orange House Island", "Teleports you to orange house island", function()
+MainSection:NewButton("Orange House Island", "Teleports you to Orange House Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(729, 241, 1192)
 end)
 
-MainSection:NewButton("Windmill Island", "Teleports you to windmill island", function()
+MainSection:NewButton("Windmill Island", "Teleports you to Wkndmill Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8, 224, -91)
 end)
 
-MainSection:NewButton("Money Farm Island", "Teleports you to money farm island", function()
+MainSection:NewButton("Money Farm Island", "Teleports you to Money farm Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1110, 218, 1673)
 end)
 
-MainSection:NewButton("Cave Island", "Teleports you to cave island", function()
+MainSection:NewButton("Cave Island", "Teleports you to Cave Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68, 216, -893)
 end)
 
-MainSection:NewButton("Pursuer Island", "Teleports you to pursuer island", function()
+MainSection:NewButton("Pursuer Island", "Teleports you to Pursuer Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4847, 570, -7143)
 end)
 
-MainSection:NewButton("Bar Island", "Teleports you to bar island", function()
+MainSection:NewButton("Bar Island", "Teleports you to Bar Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1494, 264, 2133)
 end)
 
-MainSection:NewButton("Snow Mountain", "Teleports you to snow mountain", function()
+MainSection:NewButton("Snow Mountain", "Teleports you to Snow Mountain", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
 end)
 
-MainSection:NewButton("Vokun Island", "Teleports you to ", function()
+MainSection:NewButton("Vokun Island", "Teleports you to Vokun Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4574, 217, 4962)
 end)
 
-MainSection:NewButton("Green Island", "Teleports you to ", function()
+MainSection:NewButton("Green Island", "Teleports you to Green Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2727, 253, 1041)
 end)
 
-MainSection:NewButton("Flail Island", "Teleports you to ", function()
+MainSection:NewButton("Flail Island", "Teleports you to Flail Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1068, 217, 3351)
 end)
 
-MainSection:NewButton("Sam Island", "", function()
+MainSection:NewButton("Sam Island", "Teleports you to Sam Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1283, 218, -1348)
 end)
 
-MainSection:NewButton("Pyramid Island", "", function()
+MainSection:NewButton("Pyramid Island", "Teleports you to Pyramid Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(118, 216, 4773)
 end)
 
-MainSection:NewButton("Fish Quest Island", "", function()
+MainSection:NewButton("Fish Quest Island", "Teleports you to Boar Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1668, 217, -300)
 end)
 
-MainSection:NewButton("Mountain", "", function()
+MainSection:NewButton("Mountain", "Teleports you to Mountain", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1896, 222, 3385)
 end)
 
-MainSection:NewButton("Snowy Island", "", function()
+MainSection:NewButton("Snowy Island", "Teleports you to Snowy Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2053, 488, -700)
 end)
 
-MainSection:NewButton("Marine Ford", "", function()
+MainSection:NewButton("Marine Ford", "Teleports you to Marine Ford", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3164, 296, -3780)
 end)
 
-MainSection:NewButton("Desert Island", "", function()
+MainSection:NewButton("Desert Island", "Teleports you to Desert Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(896, 224, -3275)
 end)
 
-MainSection:NewButton("", "", function()
+MainSection:NewButton("Trees Island", "Teleports you to Trees Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5781, 216, 114)
 end)
 
-MainSection:NewButton("", "", function()
+MainSection:NewButton("Purple Island", "Teleports you to Purple Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5168, 523, -7800)
 end)
 
-MainSection:NewButton("Mini Mountain", "", function()
+MainSection:NewButton("Mini Mountain", "Teleports you to Mini Mountain", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3193, 357, 1670)
 end)
 --script

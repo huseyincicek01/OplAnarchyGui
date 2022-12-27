@@ -108,4 +108,24 @@ end)
 MainSection:NewButton("Sam Island", "", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1283, 218, -1348)
 end)
+
+Section:NewButton("Pyramid Island", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(118, 216, 4773)
+end)
+
+Section:NewButton("Boar Island", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1668, 217, -300)
+end)
+
+Section:NewButton("Mountain", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1896, 222, 3385)
+end)
+
+Section:NewButton("Snowy Island", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2053, 488, -700)
+end)
+
+Section:NewButton("Marine Ford", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3164, 296, -3780)
+end)
 --script

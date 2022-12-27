@@ -23,35 +23,35 @@ MainSection:NewButton("Better Drink", "Teleports you to Better Drink Merchant", 
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1493, 260, 2171)
 end)
 
-Section:NewButton("Flail", "Teleports you to flail sword seller", function()
+MainSection:NewButton("Flail", "Teleports you to flail sword seller", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1110, 217, 3366)
 end)
 
-Section:NewButton("Rod Quest", "Teleports you to fish quest", function()
+MainSection:NewButton("Rod Quest", "Teleports you to fish quest", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1699, 216, -326)
 end)
 
-Section:NewButton("Krizma Seller", "Teleports you to krizma seller", function()
+MainSection:NewButton("Krizma Seller", "Teleports you to krizma seller", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1074, 361, 1670)
 end)
 
-Section:NewButton("Sword Seller", "Teleports you to sword seller", function()
+MainSection:NewButton("Sword Seller", "Teleports you to sword seller", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1007, 224, -3338)
 end)
 
-Section:NewButton("Gun Seller", "Teleports you to gun seller", function()
+MainSection:NewButton("Gun Seller", "Teleports you to gun seller", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1843, 222, 3408)
 end)
 
-Section:NewButton("Emote", "Teleports you to emote seller", function()
+MainSection:NewButton("Emote", "Teleports you to emote seller", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1517, 260, 2166)
 end)
 
-Section:NewButton("Affinity", "Teleports you to affinity merchant", function()
+MainSection:NewButton("Affinity", "Teleports you to affinity merchant", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(117, 278, 4948)
 end)
 
-Section:NewButton("Mixer", "Teleports you to mixer and fish merchant", function()
+MainSection:NewButton("Mixer", "Teleports you to mixer and fish merchant", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1991, 218, 566)
 end)
 

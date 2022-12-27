@@ -77,8 +77,20 @@ MainSection:NewButton("Money Farm Island", "Teleports you to money farm island",
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1110, 218, 1673)
 end)
 
-Section:NewButton("Cave Island", "Teleports you to cave island", function()
+MainSection:NewButton("Cave Island", "Teleports you to cave island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68, 216, -893)
+end)
+
+MainSection:NewButton("Pursuer Island", "Teleports you to pursuer island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4847, 570, -7143)
+end)
+
+MainSection:NewButton("Bar Island", "Teleports you to bar island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1494, 264, 2133)
+end)
+
+MainSection:NewButton("Snow Mountain", "Teleports you to snow mountain", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
 end)
 
 --script

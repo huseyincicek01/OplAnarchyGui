@@ -55,6 +55,14 @@ MainSection:NewButton("Mixer", "Teleports you to mixer and fish merchant", funct
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1991, 218, 566)
 end)
 
+MainSection:NewButton("Mission Assignment", "Teleports you to Mission Assignment", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(901, 270, 1219)
+end)
+
+MainSection:NewButton("Santa", "Teleports you to Santa", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(711, 241, 1249)
+end)
+
 local Main = Window:NewTab("Island")
 local MainSection = Main:NewSection("Island")
 --script

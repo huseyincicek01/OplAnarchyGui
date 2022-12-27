@@ -31,6 +31,18 @@ Section:NewButton("Rod Quest", "Teleports you to fish quest", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1699, 216, -326)
 end)
 
+Section:NewButton("Krizma Seller", "Teleports you to krizma seller", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1074, 361, 1670)
+end)
+
+Section:NewButton("Sword Seller", "Teleports you to sword seller", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1007, 224, -3338)
+end)
+
+Section:NewButton("Gun Seller", "Teleports you to gun seller", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1843, 222, 3408)
+end)
+
 local Main = Window:NewTab("Island")
 local MainSection = Main:NewSection("Island")
 --script

@@ -94,7 +94,7 @@ MainSection:NewButton("Snow Mountain", "Teleports you to snow mountain", functio
 end)
 
 MainSection:NewButton("Vokun Island", "Teleports you to ", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1283, 218, -1348)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4574, 217, 4962)
 end)
 
 MainSection:NewButton("Green Island", "Teleports you to ", function()
@@ -106,6 +106,6 @@ MainSection:NewButton("Flail Island", "Teleports you to ", function()
 end)
 
 MainSection:NewButton("test", "", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4574, 217, 4962)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1283, 218, -1348)
 end)
 --script

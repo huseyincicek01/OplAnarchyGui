@@ -9,7 +9,7 @@ MainSection:NewButton("Santa", "Gives Santa Present", function()
 end)
 
 local Main = Window:NewTab("Teleport")
-local MainSection = Main:NewSection("Teleport")
+local MainSection = Main:NewSection("Teleport Npc")
 --script
 MainSection:NewButton("Sam", "Teleports you to sam", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1302, 218, -1353)
@@ -65,4 +65,16 @@ end)
 
 local Main = Window:NewTab("Island")
 local MainSection = Main:NewSection("Island")
+Section:NewButton("Orange House Island", "Teleports you to orange house island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(729, 241, 1192)
+end)
+
+Section:NewButton("Cave", "Teleports you to cave island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8, 224, -91)
+end)
+
+Section:NewButton("Wind", "Teleports you to wind", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1110, 218, 1673)
+end)
+
 --script

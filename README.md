@@ -69,12 +69,16 @@ MainSection:NewButton("Orange House Island", "Teleports you to orange house isla
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(729, 241, 1192)
 end)
 
-MainSection:NewButton("Cave", "Teleports you to cave island", function()
+MainSection:NewButton("Windmill Island", "Teleports you to windmill island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8, 224, -91)
 end)
 
-MainSection:NewButton("Wind", "Teleports you to wind", function()
+MainSection:NewButton("Money Farm Island", "Teleports you to money farm island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1110, 218, 1673)
+end)
+
+Section:NewButton("Cave Island", "Teleports you to cave island", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68, 216, -893)
 end)
 
 --script

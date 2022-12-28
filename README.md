@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Cat Hub V 1.0.0 | This Gui Made By Cat#2728", "DarkTheme")
 
 local Main = Window:NewTab("Npc")
-local MainSection = Main:NewSection("NpcStuff")
+local MainSection = Main:NewSection("Npc Stuff")
 --script
 MainSection:NewButton("Santa", "Gives Santa Present", function()
     workspace.Merchants.SantaMerchant.Clickable.Retum:FireServer()
@@ -145,7 +145,7 @@ MainSection:NewButton("Mini Mountain", "Teleports you to Mini Mountain", functio
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3193, 357, 1670)
 end)
 
-MainSection:NewButton("Islands", "", function()
+MainSection:NewButton("Islands", "Teleports you to Islands", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4329, 245, 5252)
 end)
 

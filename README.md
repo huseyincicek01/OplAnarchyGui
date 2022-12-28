@@ -174,7 +174,7 @@ MainSection:NewButton("Small", "", function()
 end)
 
 MainSection:NewButton("Tiny", "", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4007, 216, -2190)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1229, 227, 623)
 end)
 
 MainSection:NewButton("Super Tiny", "", function()

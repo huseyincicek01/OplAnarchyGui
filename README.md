@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpsGet('https://pastebin.com/raw/vff1bQ9F'))()
 local Window = Library.CreateLib("Cat Hub V 1.0.0 | This Gui Made By Cat#2728", "DarkTheme")
 
 local Main = Window:NewTab("Npc")

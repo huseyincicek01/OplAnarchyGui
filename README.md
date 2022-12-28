@@ -178,10 +178,10 @@ MainSection:NewButton("Tiny", "", function()
 end)
 
 MainSection:NewButton("Super Tiny", "", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2096, 217, -1884)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2096, 224, -1884)
 end)
 
 MainSection:NewButton("Grass", "", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4007, 218, -2189)
 end)
 --script

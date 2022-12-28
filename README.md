@@ -166,11 +166,11 @@ MainSection:NewButton("Sand", "", function()
 end)
 
 MainSection:NewButton("Sand2", "", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1237, 240, -244)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1235, 223, 623)
 end)
 
 MainSection:NewButton("Small", "", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1235, 223, 623)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1237, 240, -244)
 end)
 
 MainSection:NewButton("Tiny", "", function()

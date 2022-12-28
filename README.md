@@ -144,4 +144,44 @@ end)
 MainSection:NewButton("Mini Mountain", "Teleports you to Mini Mountain", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3193, 357, 1670)
 end)
+
+Section:NewButton("Islands", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4329, 245, 5252)
+end)
+
+Section:NewButton("Town", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1818, 218, 755)
+end)
+
+Section:NewButton("Rocky", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-37, 229, 2149)
+end)
+
+Section:NewButton("Palm", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(766, 216, -1374)
+end)
+
+Section:NewButton("Sand", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2747, 216, -942)
+end)
+
+Section:NewButton("Sand2", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1237, 240, -244)
+end)
+
+Section:NewButton("Small", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1235, 223, 623)
+end)
+
+Section:NewButton("Tiny", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4007, 216, -2190)
+end)
+
+Section:NewButton("Super Tiny", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2096, 217, -1884)
+end)
+
+Section:NewButton("Grass", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+end)
 --script

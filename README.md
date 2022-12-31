@@ -189,26 +189,6 @@ local Main = Window:NewTab("Misc")
 local MainSection = Main:NewSection("Auto Farm/Haki Farm/Etc.")
 --script
 MainSection:NewButton("Haki Farm", "Haki Farm", function()
-while true do
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
-    wait() then
-Then
      game:GetService("Workspace").Enemies["Lv1 Crab"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
-Then
-     game:GetService("Workspace").Enemies["Lv12 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
-Then
-     game:GetService("Workspace").Enemies["Lv14 Bandit"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
-Then
-     game:GetService("Workspace").Enemies["Lv15 Bandit"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
-Then
-     game:GetService("Workspace").Enemies["Lv15 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
-      = true
-Then
-     game:GetService("Workspace").Enemies["Lv17 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
 end)

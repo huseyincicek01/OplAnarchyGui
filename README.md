@@ -11,7 +11,7 @@ end)
 local Main = Window:NewTab("Teleport")
 local MainSection = Main:NewSection("Teleport Npc")
 --script
-MainSection:NewButton("Sam", "Teleports you to sam", function()
+MainSection:NewButton("Sam", "Teleports you to Sam", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1302, 218, -1353)
 end)
 
@@ -23,35 +23,35 @@ MainSection:NewButton("Better Drink", "Teleports you to Better Drink Merchant", 
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1493, 260, 2171)
 end)
 
-MainSection:NewButton("Flail", "Teleports you to flail sword seller", function()
+MainSection:NewButton("Flail", "Teleports you to flail Sword Seller", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1110, 217, 3366)
 end)
 
-MainSection:NewButton("Rod Quest", "Teleports you to fish quest", function()
+MainSection:NewButton("Rod Quest", "Teleports you to Fish Quest", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1699, 216, -326)
 end)
 
-MainSection:NewButton("Krizma Seller", "Teleports you to krizma seller", function()
+MainSection:NewButton("Krizma Seller", "Teleports you to Krizma Seller", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1074, 361, 1670)
 end)
 
-MainSection:NewButton("Sword Seller", "Teleports you to sword seller", function()
+MainSection:NewButton("Sword Seller", "Teleports you to Sword Seller", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1007, 224, -3338)
 end)
 
-MainSection:NewButton("Gun Seller", "Teleports you to gun seller", function()
+MainSection:NewButton("Gun Seller", "Teleports you to Gun Seller", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1843, 222, 3408)
 end)
 
-MainSection:NewButton("Emote", "Teleports you to emote seller", function()
+MainSection:NewButton("Emote", "Teleports you to Emote Seller", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1517, 260, 2166)
 end)
 
-MainSection:NewButton("Affinity", "Teleports you to affinity merchant", function()
+MainSection:NewButton("Affinity", "Teleports you to Affinity Merchant", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(117, 278, 4948)
 end)
 
-MainSection:NewButton("Mixer", "Teleports you to mixer and fish merchant", function()
+MainSection:NewButton("Mixer", "Teleports you to Mixer and Fish Merchant", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1991, 218, 566)
 end)
 
@@ -69,11 +69,11 @@ MainSection:NewButton("Orange House Island", "Teleports you to Orange House Isla
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(729, 241, 1192)
 end)
 
-MainSection:NewButton("Windmill Island", "Teleports you to Wkndmill Island", function()
+MainSection:NewButton("Windmill Island", "Teleports you to Windmill Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8, 224, -91)
 end)
 
-MainSection:NewButton("Money Farm Island", "Teleports you to Money farm Island", function()
+MainSection:NewButton("Money Farm Island", "Teleports you to Money Farm Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1110, 218, 1673)
 end)
 
@@ -149,42 +149,74 @@ MainSection:NewButton("Islands", "Teleports you to Islands", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4329, 245, 5252)
 end)
 
-MainSection:NewButton("Town", "", function()
+MainSection:NewButton("Town", "Teleports you to Town", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1818, 218, 755)
 end)
 
-MainSection:NewButton("Rocky", "", function()
+MainSection:NewButton("Rocky", "Teleports you to Rocky Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-37, 229, 2149)
 end)
 
-MainSection:NewButton("Palm", "", function()
+MainSection:NewButton("Palm", "Teleports you to Palm Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(766, 216, -1374)
 end)
 
-MainSection:NewButton("Sand", "", function()
+MainSection:NewButton("Sand", "Teleports you to Sand Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2747, 216, -942)
 end)
 
-MainSection:NewButton("Sand2", "", function()
+MainSection:NewButton("Sand2", "Teleports you to Another Sand Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(162, 226, -2265)
 end)
 
-MainSection:NewButton("Small", "", function()
+MainSection:NewButton("Small", "Teleports you to Small Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1237, 240, -244)
 end)
 
-MainSection:NewButton("Tiny", "", function()
+MainSection:NewButton("Tiny", "Teleports you to Tiny Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1229, 227, 623)
 end)
 
-MainSection:NewButton("Super Tiny", "", function()
+MainSection:NewButton("Super Tiny", "Teleports you to Super Tiny Island", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4007, 216, -2189)
 end)
 
-MainSection:NewButton("Grass", "", function()
+MainSection:NewButton("Grass", "Teleports you to Small Grass Island touch some grass", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2147, 217, -1911)
 end)
 --script
+local Main = Window:NewTab("Misc")
+local MainSection = Main:NewSection("Auto Farm/Haki Farm/Etc.")
+MainSection:NewButton("Haki Farm", "Haki Farm (Rejoin To Close)", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    wait()
+     game:GetService("Workspace").Enemies["Lv1 Crab"].Anchored = true
+     game:GetService("Workspace").Enemies["Lv1 Crab"].HumanoidRootPart.CFrame(6654, 418, -1468)
+     game:GetService("Workspace").Enemies["Lv12 Thug"].HumanoidRootPart.Anchored = true
+     game:GetService("Workspace").Enemies["Lv12 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
+     game:GetService("Workspace").Enemies["Lv14 Bandit"].HumanoidRootPart.Anchored = true
+     game:GetService("Workspace").Enemies["Lv14 Bandit"].HumanoidRootPart.CFrame(6654, 418, -1468)
+     game:GetService("Workspace").Enemies["Lv15 Bandit"].HumanoidRootPart.Anchored = true
+     game:GetService("Workspace").Enemies["Lv15 Bandit"].HumanoidRootPart.CFrame(6654, 418, -1468)
+     game:GetService("Workspace").Enemies["Lv15 Thug"].HumanoidRootPart.Anchored = true
+     game:GetService("Workspace").Enemies["Lv15 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
+     game:GetService("Workspace").Enemies["Lv17 Thug"].HumanoidRootPart.Anchored = true
+     game:GetService("Workspace").Enemies["Lv17 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
+     game:GetService("Workspace").Enemies["Lv2 Angry Bob"].HumanoidRootPart.Anchored = true
+     game:GetService("Workspace").Enemies["Lv2 Angry Bob"].HumanoidRootPart.CFrame(6654, 418, -1468)
+     game:GetService("Workspace").Enemies["Lv20 Thief"].HumanoidRootPart.Anchored = true
+     game:GetService("Workspace").Enemies["Lv20 Thief"].HumanoidRootPart.CFrame(6654, 418, -1468)
+     game:GetService("Workspace").Enemies["Lv22 Angry Bobby"].HumanoidRootPart.Anchored = true
+     game:GetService("Workspace").Enemies["Lv22 Angry Bobby"].HumanoidRootPart.CFrame(6654, 418, -1468)
+     game:GetService("Workspace").Enemies["Lv22 Thug"].HumanoidRootPart.Anchored = true
+     game:GetService("Workspace").Enemies["Lv22 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
+     game:GetService("Workspace").Enemies["Lv23 Thug"].HumanoidRootPart.Anchored = true
+     game:GetService("Workspace").Enemies["Lv23 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
+     game:GetService("Workspace").Enemies["Lv24 Angry Bobbi"].HumanoidRootPart.Anchored = true
+     game:GetService("Workspace").Enemies["Lv24 Angry Bobbi"].HumanoidRootPart.CFrame(6654, 418, -1468)
+
+end)
+
 game:GetService("Workspace").Enemies["Lv1 Crab"].HumanoidRootPart
 game:GetService("Workspace").Enemies["Lv12 Thug"].HumanoidRootPart
 game:GetService("Workspace").Enemies:GetChildren()[46].HumanoidRootPart

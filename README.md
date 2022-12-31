@@ -188,6 +188,7 @@ end)
 local Main = Window:NewTab("Misc")
 local MainSection = Main:NewSection("Auto Farm/Haki Farm/Etc.")
 MainSection:NewButton("Haki Farm", "Haki Farm (Rejoin To Close)", function()
+    while true do
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     wait()
      game:GetService("Workspace").Enemies["Lv1 Crab"].Anchored = true
@@ -214,23 +215,5 @@ MainSection:NewButton("Haki Farm", "Haki Farm (Rejoin To Close)", function()
      game:GetService("Workspace").Enemies["Lv23 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
      game:GetService("Workspace").Enemies["Lv24 Angry Bobbi"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv24 Angry Bobbi"].HumanoidRootPart.CFrame(6654, 418, -1468)
-
 end)
-
-game:GetService("Workspace").Enemies["Lv1 Crab"].HumanoidRootPart
-game:GetService("Workspace").Enemies["Lv12 Thug"].HumanoidRootPart
-game:GetService("Workspace").Enemies:GetChildren()[46].HumanoidRootPart
-game:GetService("Workspace").Enemies["Lv14 Bandit"].HumanoidRootPart
-game:GetService("Workspace").Enemies["Lv15 Bandit"].HumanoidRootPart
-game:GetService("Workspace").Enemies["Lv15 Thug"].HumanoidRootPart
-game:GetService("Workspace").Enemies:GetChildren()[32].HumanoidRootPart
-game:GetService("Workspace").Enemies["Lv17 Thug"].HumanoidRootPart
-game:GetService("Workspace").Enemies["Lv2 Angry Bob"].HumanoidRootPart
-game:GetService("Workspace").Enemies:GetChildren()[15].HumanoidRootPart
-game:GetService("Workspace").Enemies:GetChildren()[14].HumanoidRootPart
-game:GetService("Workspace").Enemies:GetChildren()[23].HumanoidRootPart
-game:GetService("Workspace").Enemies["Lv20 Thief"].HumanoidRootPart
-game:GetService("Workspace").Enemies["Lv22 Angry Bobby"].HumanoidRootPart
-game:GetService("Workspace").Enemies["Lv22 Thug"].HumanoidRootPart
-game:GetService("Workspace").Enemies["Lv23 Thug"].HumanoidRootPart
-game:GetService("Workspace").Enemies["Lv24 Angry Bobbi"].HumanoidRootPart
+end

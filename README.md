@@ -188,7 +188,7 @@ end)
 local Main = Window:NewTab("Misc")
 local MainSection = Main:NewSection("Auto Farm/Haki Farm/Etc.")
 --script
-MainSection:NewButton("Haki Farm", "Haki Farm", function()
+MainSection:NewButton("test", "test", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     wait() then
      game:GetService("Workspace").Enemies["Lv1 Crab"].Anchored = true

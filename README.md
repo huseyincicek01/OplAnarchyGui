@@ -185,3 +185,20 @@ MainSection:NewButton("Grass", "", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2147, 217, -1911)
 end)
 --script
+game:GetService("Workspace").Enemies["Lv1 Crab"].HumanoidRootPart
+game:GetService("Workspace").Enemies["Lv12 Thug"].HumanoidRootPart
+game:GetService("Workspace").Enemies:GetChildren()[46].HumanoidRootPart
+game:GetService("Workspace").Enemies["Lv14 Bandit"].HumanoidRootPart
+game:GetService("Workspace").Enemies["Lv15 Bandit"].HumanoidRootPart
+game:GetService("Workspace").Enemies["Lv15 Thug"].HumanoidRootPart
+game:GetService("Workspace").Enemies:GetChildren()[32].HumanoidRootPart
+game:GetService("Workspace").Enemies["Lv17 Thug"].HumanoidRootPart
+game:GetService("Workspace").Enemies["Lv2 Angry Bob"].HumanoidRootPart
+game:GetService("Workspace").Enemies:GetChildren()[15].HumanoidRootPart
+game:GetService("Workspace").Enemies:GetChildren()[14].HumanoidRootPart
+game:GetService("Workspace").Enemies:GetChildren()[23].HumanoidRootPart
+game:GetService("Workspace").Enemies["Lv20 Thief"].HumanoidRootPart
+game:GetService("Workspace").Enemies["Lv22 Angry Bobby"].HumanoidRootPart
+game:GetService("Workspace").Enemies["Lv22 Thug"].HumanoidRootPart
+game:GetService("Workspace").Enemies["Lv23 Thug"].HumanoidRootPart
+game:GetService("Workspace").Enemies["Lv24 Angry Bobbi"].HumanoidRootPart

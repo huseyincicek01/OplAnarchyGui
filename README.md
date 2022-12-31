@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Cat Hub V 1.0.0 | This Gui Made By Cat#2728", "DarkTheme")
+local Window = Library.CreateLib("Cat Hub V 1.5.0 | This Gui Made By Cat#2728", "DarkTheme")
 
 local Main = Window:NewTab("Npc")
 local MainSection = Main:NewSection("Npc Stuff")
@@ -193,27 +193,38 @@ MainSection:NewButton("Haki Farm", "Haki Farm (Rejoin To Close)", function()
     wait()
      game:GetService("Workspace").Enemies["Lv1 Crab"].Anchored = true
      game:GetService("Workspace").Enemies["Lv1 Crab"].HumanoidRootPart.CFrame(6654, 418, -1468)
+wait()
      game:GetService("Workspace").Enemies["Lv12 Thug"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv12 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
+wait()
      game:GetService("Workspace").Enemies["Lv14 Bandit"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv14 Bandit"].HumanoidRootPart.CFrame(6654, 418, -1468)
+wait()
      game:GetService("Workspace").Enemies["Lv15 Bandit"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv15 Bandit"].HumanoidRootPart.CFrame(6654, 418, -1468)
+wait()
      game:GetService("Workspace").Enemies["Lv15 Thug"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv15 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
+wait()
      game:GetService("Workspace").Enemies["Lv17 Thug"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv17 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
+wait()
      game:GetService("Workspace").Enemies["Lv2 Angry Bob"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv2 Angry Bob"].HumanoidRootPart.CFrame(6654, 418, -1468)
+wait()
      game:GetService("Workspace").Enemies["Lv20 Thief"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv20 Thief"].HumanoidRootPart.CFrame(6654, 418, -1468)
+wait()
      game:GetService("Workspace").Enemies["Lv22 Angry Bobby"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv22 Angry Bobby"].HumanoidRootPart.CFrame(6654, 418, -1468)
+wait()
      game:GetService("Workspace").Enemies["Lv22 Thug"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv22 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
+wait()
      game:GetService("Workspace").Enemies["Lv23 Thug"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv23 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
+wait()
      game:GetService("Workspace").Enemies["Lv24 Angry Bobbi"].HumanoidRootPart.Anchored = true
      game:GetService("Workspace").Enemies["Lv24 Angry Bobbi"].HumanoidRootPart.CFrame(6654, 418, -1468)
-end)
+wait()
 end

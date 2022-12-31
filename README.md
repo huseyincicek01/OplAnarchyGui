@@ -192,52 +192,23 @@ MainSection:NewButton("Haki Farm", "Haki Farm", function()
 while true do
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     wait() then
-     game:GetService("Workspace").Enemies["Lv1 Crab"].Anchored = true
 Then
      game:GetService("Workspace").Enemies["Lv1 Crab"].HumanoidRootPart.CFrame(6654, 418, -1468)
      wait()
-     game:GetService("Workspace").Enemies["Lv12 Thug"].HumanoidRootPart.Anchored = true
 Then
      game:GetService("Workspace").Enemies["Lv12 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
      wait()
-     game:GetService("Workspace").Enemies["Lv14 Bandit"].HumanoidRootPart.Anchored = true
 Then
      game:GetService("Workspace").Enemies["Lv14 Bandit"].HumanoidRootPart.CFrame(6654, 418, -1468)
      wait()
-     game:GetService("Workspace").Enemies["Lv15 Bandit"].HumanoidRootPart.Anchored = true
 Then
      game:GetService("Workspace").Enemies["Lv15 Bandit"].HumanoidRootPart.CFrame(6654, 418, -1468)
      wait()
-     game:GetService("Workspace").Enemies["Lv15 Thug"].HumanoidRootPart.Anchored = true
 Then
      game:GetService("Workspace").Enemies["Lv15 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
      wait()
-     game:GetService("Workspace").Enemies["Lv17 Thug"].HumanoidRootPart.Anchored = true
+      = true
 Then
      game:GetService("Workspace").Enemies["Lv17 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
-     game:GetService("Workspace").Enemies["Lv2 Angry Bob"].HumanoidRootPart.Anchored = true
-Then
-     game:GetService("Workspace").Enemies["Lv2 Angry Bob"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
-     game:GetService("Workspace").Enemies["Lv20 Thief"].HumanoidRootPart.Anchored = true
-Then
-     game:GetService("Workspace").Enemies["Lv20 Thief"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
-     game:GetService("Workspace").Enemies["Lv22 Angry Bobby"].HumanoidRootPart.Anchored = true
-Then
-     game:GetService("Workspace").Enemies["Lv22 Angry Bobby"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
-     game:GetService("Workspace").Enemies["Lv22 Thug"].HumanoidRootPart.Anchored = true
-Then
-     game:GetService("Workspace").Enemies["Lv22 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
-     game:GetService("Workspace").Enemies["Lv23 Thug"].HumanoidRootPart.Anchored = true
-Then
-     game:GetService("Workspace").Enemies["Lv23 Thug"].HumanoidRootPart.CFrame(6654, 418, -1468)
-     wait()
-     game:GetService("Workspace").Enemies["Lv24 Angry Bobbi"].HumanoidRootPart.Anchored = true
-Then
-     game:GetService("Workspace").Enemies["Lv24 Angry Bobbi"].HumanoidRootPart.CFrame(6654, 418, -1468)
      wait()
 end)

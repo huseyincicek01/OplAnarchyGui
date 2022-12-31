@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Cat Hub V 1.5.0 | This Gui Made By Cat#2728", "DarkTheme")
+local Window = Library.CreateLib("Cat Hub V 1.0.0 | This Gui Made By Cat#2728", "DarkTheme")
 
 local Main = Window:NewTab("Npc")
 local MainSection = Main:NewSection("Npc Stuff")
@@ -183,12 +183,4 @@ end)
 
 MainSection:NewButton("Grass", "Teleports you to Small Grass Island touch some grass", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2147, 217, -1911)
-end)
-
-local Main = Window:NewTab("Misc")
-local MainSection = Main:NewSection("Auto Farm/Haki Farm/Etc.")
---script
-MainSection:NewButton("Haki Farm", "Haki Farm", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
-     game:GetService("Workspace").Enemies["Lv1 Crab"].HumanoidRootPart.CFrame(6654, 418, -1468)
 end)

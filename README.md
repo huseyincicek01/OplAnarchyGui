@@ -8,8 +8,13 @@ MainSection:NewButton("Santa", "Gives Santa Present", function()
     workspace.Merchants.SantaMerchant.Clickable.Retum:FireServer()
 end)
 
+MainSection:NewButton("Open Sam", "Open Sam", function() 
+fireclickdetector(game:GetService("Workspace").Merchants.QuestMerchant.Clickable.ClickDetector) 
+end)
+
 local Main = Window:NewTab("Teleport")
 local MainSection = Main:NewSection("Teleport Npc")
+
 --script
 MainSection:NewButton("Sam", "Teleports you to Sam", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1302, 218, -1353)
@@ -183,4 +188,34 @@ end)
 
 MainSection:NewButton("Grass", "Teleports you to Small Grass Island touch some grass", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2147, 217, -1911)
+end)
+
+local Main = Window:NewTab("Misc")
+local MainSection = Main:NewSection("Random Stuffs")
+
+MainSection:NewButton("Go to compass", "go to compass", function() 
+local CharacterName = game.Players.LocalPlayer.Character
+local pl2 = game:GetService("Players").LocalPlayer
+local pl3 = pl2.Backpack.Compass.Poser.Value
+local ply = game.Players.LocalPlayer.Character.HumanoidRootPart 
+ply.CFrame = CFrame.new(pl3) 
+end)
+
+MainSection:NewToggle("Auto Bring Fruit", "Auto Bring Fruit", function(state) 
+if state then Fbring = state 
+while Fbring == true do 
+wait() 
+local placeF = game:GetService("Workspace").Trees 
+for i, v in pairs(placeF:GetDescendants()) do 
+if v.Name == "ClickDetector" then 
+fireclickdetector(v) 
+end 
+end 
+end 
+else 
+Fbring = state 
+while Fbring == true do 
+print('Repeat Stopped') 
+end 
+end 
 end)

@@ -224,7 +224,7 @@ local Main = Window:NewTab("Npc Farm")
 local MainSection = Main:NewSection("Npc Farm")
 
 MainSection:NewButton("Bring GunSlinger Boss", "Brings GunSlinger Boss", function()
-    while true do
+    while bring == true do
     game:GetService("Workspace").Enemies["Lv8000 Gunner Captain"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv500 Bucky"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv360 Bruno"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)

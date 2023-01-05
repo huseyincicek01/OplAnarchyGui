@@ -249,6 +249,5 @@ MainSection:NewButton("Bring GunSlinger Boss", "Brings GunSlinger Boss", functio
     game:GetService("Workspace").Enemies["Lv4 Boar"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv24 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv30 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
-    game:GetService("Workspace").Enemies.HumanoidRootPart.Anchor = true
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
 end)

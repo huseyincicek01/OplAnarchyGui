@@ -233,6 +233,10 @@ local Main = Window:NewTab("Auto Farm")
 local MainSection = Main:NewSection("Auto farm")
 
 MainSection:NewButton("Auto Farm Npc", "This Only Works With Candy Body Or Magma Body Or Other Fruit Skills Or Use Gun", function()
+funaction(state)
+Auto Farm = state
+while state true
+wait()
     game:GetService("Workspace").Enemies["Lv8000 Gunner Captain"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv500 Bucky"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv360 Bruno"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)

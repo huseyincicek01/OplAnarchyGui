@@ -201,6 +201,15 @@ local ply = game.Players.LocalPlayer.Character.HumanoidRootPart
 ply.CFrame = CFrame.new(pl3) 
 end)
 
+
+MainSection:NewButton("Go To Package", "Go To Package", function()
+local CharacterName = game.Players.LocalPlayer.Character
+local pl2 = game:GetService("Players").LocalPlayer
+local pl3 = pl2.Backpack.Package.Poser.Value
+local ply = game.Players.LocalPlayer.Character.HumanoidRootPart 
+ply.CFrame = CFrame.new(pl3) 
+end)
+
 MainSection:NewToggle("Auto Bring Fruit", "Auto Bring Fruit", function(state) 
 if state then Fbring = state 
 while Fbring == true do 

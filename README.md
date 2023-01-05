@@ -251,3 +251,21 @@ MainSection:NewButton("Auto Farm Npc", "This Only Works With Candy Body Or Magma
     game:GetService("Workspace").Enemies["Lv30 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
 end)
+
+local Main = Window:NewTab("Spam Skill")
+local MainSection = Main:NewSection("Spam Full Charged Skill")
+
+MainSection:NewButton("Light", "Light Spam", function()
+local plr = 
+game:GetService("Players").LocalPlayer 	
+plr.Character.Powers.Light.RemoteEvent:FireServer("LightPower2","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100) 
+end)
+MainSection:NewButton("Magma", "Magma Spam", function()
+local plr = game:GetService("Players").LocalPlayer 	
+plr.Character.Powers.Magma.RemoteEvent:FireServer("MagmaPower1","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100) 
+end)
+MainSection:NewButton("Go to compass", "go to compass", function()
+local plr = 
+game:GetService("Players").LocalPlayer 	
+plr.Character.Powers.Chilly.RemoteEvent:FireServer("ChillyPower2","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100) 
+end)

@@ -266,6 +266,6 @@ plr.Character.Powers.Magma.RemoteEvent:FireServer("MagmaPower1","StopCharging",p
 end)
 MainSection:NewButton("Chilly", "Chilly Spam", function()
      local plr = 
-game:GetService("Players").LocalPlayer 	
+game:GetService("Workspace").huseyincicek01
 plr.Character.Powers.Chilly.RemoteEvent:FireServer("ChillyPower2","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100) 
 end)

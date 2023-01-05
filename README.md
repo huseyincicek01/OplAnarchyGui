@@ -220,10 +220,10 @@ end
 end 
 end)
 
-local Main = Window:NewTab("Npc Farm")
-local MainSection = Main:NewSection("Npc Farm")
+local Main = Window:NewTab("Auto Farm")
+local MainSection = Main:NewSection("Auto farm")
 
-MainSection:NewButton("Bring GunSlinger Boss", "Brings GunSlinger Boss", function()
+MainSection:NewButton("Auto Farm Npc", "This Only Works With Candy Body Or Magma Body Or Other Fruit Skills Or Use Gun", function()
     game:GetService("Workspace").Enemies["Lv8000 Gunner Captain"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv500 Bucky"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv360 Bruno"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)

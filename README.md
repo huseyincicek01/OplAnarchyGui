@@ -267,5 +267,5 @@ end)
 MainSection:NewButton("Chilly", "Chilly Spam", function()
      local plr =
 game:GetService("Players").LocalPlayer
-plr.Character.Powers.Chilly.RemoteEvent:FireServer("ChillyPower5","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Chilly.RemoteEvent:FireServer("ChillyPower11","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)

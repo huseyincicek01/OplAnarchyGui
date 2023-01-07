@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Cat Hub V 1.0.0 | This Gui Made By Cat#2728", "DarkTheme")
+local Window = Library.CreateLib("Cat Hub V 1.3.0 | This Gui Made By Cat#2728", "DarkTheme")
 
 local Main = Window:NewTab("Npc")
 local MainSection = Main:NewSection("Npc Stuff")
@@ -201,15 +201,6 @@ local ply = game.Players.LocalPlayer.Character.HumanoidRootPart
 ply.CFrame = CFrame.new(pl3) 
 end)
 
-
-MainSection:NewButton("Go To Package", "Go To Package", function()
-local CharacterName = game.Players.LocalPlayer.Character
-local pl2 = game:GetService("Players").LocalPlayer
-local pl3 = pl2.Backpack.Package.Poser.Value
-local ply = game.Players.LocalPlayer.Character.HumanoidRootPart 
-ply.CFrame = CFrame.new(pl3) 
-end)
-
 MainSection:NewToggle("Auto Bring Fruit", "Auto Bring Fruit", function(state) 
 if state then Fbring = state 
 while Fbring == true do 
@@ -262,7 +253,7 @@ MainSection:NewButton("Auto Farm Npc", "Use Body Skill Or Gun Or Fruit Skill", f
 end)
 
 local Main = Window:NewTab("Spam Skill")
-local MainSection = Main:NewSection("Spam Full Charged Skill")
+local MainSection = Main:NewSection("Spam Full Charged Skill (W.I.P)")
 
 MainSection:NewButton("Light", "Light Spam", function()
      local plr = 
@@ -276,5 +267,5 @@ end)
 MainSection:NewButton("Chilly", "Chilly Spam", function()
      local plr =
 game:GetService("Players").LocalPlayer
-plr.Character.Powers.Chilly.RemoteEvent:FireServer("ChillyPower2","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Chilly.RemoteEvent:FireServer("ChillyPower5","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)

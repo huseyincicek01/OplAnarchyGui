@@ -263,14 +263,14 @@ local MainSection = Main:NewSection("Spam Full Charged Skill (W.I.P)")
 MainSection:NewButton("Light", "Light Spam", function()
      local plr =
 game:GetService("Players").LocalPlayer
-Character.Powers.Light.RemoteEvent:FireServer("LightPower2","StopCharging",plr.Character.HumanoidRootPart.CFrame.new,workspace.IslandWindmill.Beach.Beach,100)
+Player.Character.Powers.Light.RemoteEvent:FireServer("LightPower2","StopCharging",plr.Character.HumanoidRootPart.CFrame.new,workspace.IslandWindmill.Beach.Beach,100)
 end)
 
 game:GetService("Players").LocalPlayer.Character.Powers.Light.RemoteEvent:FireServer(unpack(args))
 
 MainSection:NewButton("Magma", "Magma Spam", function()
      local plr = game:GetService("Players").LocalPlayer 	
-Character.Powers.Magma.RemoteEvent:FireServer("MagmaPower1","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100) 
+plr.Character.Powers.Magma.RemoteEvent:FireServer("MagmaPower1","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100) 
 end)
 
 MainSection:NewButton("Chilly", "Chilly Spam", function()

@@ -203,6 +203,7 @@ end)
 
 MainSection:NewButton("Infinite Yield", "Infinite Yield", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
 
 MainSection:NewToggle("Auto Bring Fruit", "Auto Bring Fruit", function(state) 
 if state then Fbring = state 

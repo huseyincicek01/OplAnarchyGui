@@ -353,7 +353,7 @@ end)
 MainSection:NewButton("Flail (50000)", "Buy Flail", function()
 local args = {
     [1] = "Flail",
-    [2] = -5000000
+    [2] = 50000
 }
 
 workspace.Merchants.SwordMerchant.Clickable.Retum:FireServer(unpack(args))

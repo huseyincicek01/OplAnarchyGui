@@ -260,34 +260,109 @@ end)
 local Main = Window:NewTab("Drink")
 local MainSection = Main:NewSection("Drink Seller")
 
-MainSection:NewButton("Cider+(10.000)", "Buy Cider+", function()
+MainSection:NewButton("Cider+ (10.000)", "Buy Cider+", function()
 local args = {
     [1] = "Cider+"
 }
 
 workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
-
-MainSection:NewButton("Lemonade+(10.000)", "Buy Lemonade+", function()
+MainSection:NewButton("Lemonade+ (10.000)", "Buy Lemonade+", function()
 local args = {
     [1] = "Lemonade+"
 }
 
 workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
-
-MainSection:NewButton("Juice+(10.000)", "Buy Juice+", function()
+MainSection:NewButton("Juice+ (10.000)", "Buy Juice+", function()
 local args = {
     [1] = "Juice+"
 }
 
 workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
-
-MainSection:NewButton("Smoothe+(10.000)", "Buy Smoothie+", function()
+MainSection:NewButton("Smoothe+ (10.000)", "Buy Smoothie+", function()
 local args = {
     [1] = "Smoothie+"
 }
 
 workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+MainSection:NewButton("Cider (500)", "Buy Cider", function()
+local args = {
+    [1] = "Cider"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+MainSection:NewButton("Lemonade (500)", "Buy Lemonade", function()
+local args = {
+    [1] = "Lemonade"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+MainSection:NewButton("Juice (500)", "Buy Juice", function()
+local args = {
+    [1] = "Juice"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+MainSection:NewButton("Smoothie (500)", "Buy Smoothie", function()
+local args = {
+    [1] = "Smoothie"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+MainSection:NewButton("Dagger (1000)", "Buy Dagger", function()
+local args = {
+    [1] = "Dagger",
+    [2] = 1000
+}
+
+workspace.Merchants.SwordMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+MainSection:NewButton("Wakizashi (5000)", "Buy Wakizashi", function()
+local args = {
+    [1] = "Wakizashi",
+    [2] = 5000
+}
+
+workspace.Merchants.SwordMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+MainSection:NewButton("Tachi (7500)", "Buy Tachi", function()
+local args = {
+    [1] = "Tachi",
+    [2] = 7500
+}
+
+workspace.Merchants.SwordMerchant.Clickable.Retum:FireServer(unpack(args))
+
+end)
+MainSection:NewButton("Katana (10000)", "Buy Katana", function()
+local args = {
+    [1] = "Katana",
+    [2] = 10000
+}
+
+workspace.Merchants.SwordMerchant.Clickable.Retum:FireServer(unpack(args))
+
+end)
+MainSection:NewButton("Flail (50000)", "Buy Flail", function()
+local args = {
+    [1] = "Flail",
+    [2] = -5000000
+}
+
+workspace.Merchants.SwordMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+MainSection:NewButton("Krizma (80000)", "Buy Krizma", function()
+local args = {
+    [1] = "Krizma",
+    [2] = 80000
+}
+
+workspace.Merchants.SwordMerchant.Clickable.Retum:FireServer(unpack(args))
 end)

@@ -417,3 +417,18 @@ local args = {
 
 workspace.Merchants.SniperMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
+
+local Main = Window:NewTab("Other Hubs")
+local MainSection = Main:NewSection("Other Hubs")
+
+MainSection:NewButton("KAKXHUB Hub", "KAKXHUB Hub", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/KAKXHUB/OPL/main/README.md')))()
+end)
+
+MainSection:NewButton("AltsegoD Hub", "AltsegoD Hub", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/script/master/OnePieceLegendary.lua')))()
+end)
+
+MainSection:NewButton("Urr1233 Hub", "Ur1233 Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Urr1233/One-Piece-Legendary-Urr124/main/README.md"))();
+end)

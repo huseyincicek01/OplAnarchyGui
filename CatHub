@@ -201,6 +201,9 @@ local ply = game.Players.LocalPlayer.Character.HumanoidRootPart
 ply.CFrame = CFrame.new(pl3) 
 end)
 
+MainSection:NewButton("Infinite Yield", "Infinite Yield", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
 MainSection:NewToggle("Auto Bring Fruit", "Auto Bring Fruit", function(state) 
 if state then Fbring = state 
 while Fbring == true do 
@@ -263,7 +266,7 @@ plr.Character.Powers.Light.RemoteEvent:FireServer("LightPower2","StopCharging",p
 end)
 MainSection:NewButton("Magma", "Magma Spam", function()
      local plr = game:GetService("Players").LocalPlayer 	
-plr.Character.Powers.Magma.RemoteEvent:FireServer("MagmaPower1","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100) 
+Character.Powers.Magma.RemoteEvent:FireServer("MagmaPower1","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100) 
 end)
 MainSection:NewButton("Chilly", "Chilly Spam", function()
      local plr =

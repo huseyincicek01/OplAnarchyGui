@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Cat Hub V 1.5.0 | This Gui Made By Cat#2728", "DarkTheme")
+local Window = Library.CreateLib("Cat Hub V 1.6.0 | This Gui Made By Cat#2728", "DarkTheme")
 
 local Main = Window:NewTab("Npc")
 local MainSection = Main:NewSection("Npc Stuff")
@@ -431,4 +431,12 @@ end)
 
 MainSection:NewButton("Urr1233 Hub", "Ur1233 Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Urr1233/One-Piece-Legendary-Urr124/main/README.md"))();
+end)
+
+MainSection:NewButton("Oak4Blood Hub", "Oak4Blood Hub", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Oak4Blood/One-Piece-Legendary/main/CrimHubNormal')))()
+end)
+
+MainSection:NewButton("Turlte Hub", "Turtle Hub", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/toaie0112/Turtle-Hub/main/OPL'))()
 end)

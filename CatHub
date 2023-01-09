@@ -366,3 +366,35 @@ local args = {
 
 workspace.Merchants.SwordMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
+MainSection:NewButton("Slingshot (1000)", "Buy Slingshot", function()
+local args = {
+    [1] = "Slingshot",
+    [2] = 1000
+}
+
+workspace.Merchants.SniperMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+MainSection:NewButton("Stars (5000)", "Buy Stars", function()
+local args = {
+    [1] = "Stars",
+    [2] = 5000
+}
+
+workspace.Merchants.SniperMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+MainSection:NewButton("Crossbow (7500)", "Buy Crossbow", function()
+local args = {
+    [1] = "Crossbow",
+    [2] = 7500
+}
+
+workspace.Merchants.SniperMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+MainSection:NewButton("Flintlock (10000)", "Buy Flintlock", function()
+local args = {
+    [1] = "Flintlock",
+    [2] = 10000
+}
+
+workspace.Merchants.SniperMerchant.Clickable.Retum:FireServer(unpack(args))
+end)

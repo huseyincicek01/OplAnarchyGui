@@ -256,31 +256,3 @@ MainSection:NewButton("Auto Farm Npc", "Use Body Skill Or Gun Or Fruit Skill", f
     game:GetService("Workspace").Enemies["Lv30 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6670, 418, -1468)
 end)
-
-local Main = Window:NewTab("Spam Skill")
-local MainSection = Main:NewSection("Spam Full Charged Skill (W.I.P)")
-
-MainSection:NewButton("Light", "Light Spam", function()
-     local plr =
-game:GetService("Players").LocalPlayer
-Player.Character.Powers.Light.RemoteEvent:FireServer("LightPower2","StopCharging",plr.Character.HumanoidRootPart.CFrame.new,workspace.IslandWindmill.Beach.Beach,100)
-end)
-
-game:GetService("Players").LocalPlayer.Character.Powers.Light.RemoteEvent:FireServer(unpack(args))
-
-MainSection:NewButton("Magma", "Magma Spam", function()
-     local plr = game:GetService("Players").LocalPlayer 	
-plr.Character.Powers.Magma.RemoteEvent:FireServer("MagmaPower1","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100) 
-end)
-
-MainSection:NewButton("Chilly", "Chilly Spam", function()
-     local plr =
-game:GetService("Players").LocalPlayer
-plr.Character.Powers.Chilly.RemoteEvent:FireServer("ChillyPower5","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
-end)
-
-MainSection:NewButton("Bomb", "Bomb Spam", function()
-     local plr =
-game:GetService("Players").LocalPlayer
-plr.Character.Powers.Bomb.RemoteEvent:FireServer("BombPower5","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
-end)

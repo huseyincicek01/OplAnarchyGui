@@ -201,6 +201,10 @@ local ply = game.Players.LocalPlayer.Character.HumanoidRootPart
 ply.CFrame = CFrame.new(pl3) 
 end)
 
+MainSection:NewButton("Admin Menu", "Click Emotes To See", function()
+game:GetService("Players").LocalPlayer.PlayerGui.Emotes.Frame.Spec.Visible = true
+end)
+
 MainSection:NewButton("Infinite Yield", "Infinite Yield", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)

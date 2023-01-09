@@ -257,9 +257,9 @@ local Main = Window:NewTab("Spam Skill")
 local MainSection = Main:NewSection("Spam Full Charged Skill (W.I.P)")
 
 MainSection:NewButton("Light", "Light Spam", function()
-     local plr = 
-game:GetService("Players").LocalPlayer 	
-plr.Character.Powers.Light.RemoteEvent:FireServer("LightPower2","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100) 
+     local plr =
+game:GetService("Players").LocalPlayer
+plr.Character.Powers.Light.RemoteEvent:FireServer("LightPower2","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)
 MainSection:NewButton("Magma", "Magma Spam", function()
      local plr = game:GetService("Players").LocalPlayer 	

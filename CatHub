@@ -257,8 +257,8 @@ MainSection:NewButton("Auto Farm Npc", "Use Body Skill Or Gun Or Fruit Skill", f
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6670, 418, -1468)
 end)
 
-local Main = Window:NewTab("Drink")
-local MainSection = Main:NewSection("Drink Seller")
+local Main = Window:NewTab("Buy Stuff")
+local MainSection = Main:NewSection("Buy Stuff")
 
 MainSection:NewButton("Cider+ (10.000)", "Buy Cider+", function()
 local args = {

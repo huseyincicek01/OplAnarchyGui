@@ -256,3 +256,38 @@ MainSection:NewButton("Auto Farm Npc", "Use Body Skill Or Gun Or Fruit Skill", f
     game:GetService("Workspace").Enemies["Lv30 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6670, 418, -1468)
 end)
+
+local Main = Window:NewTab("Drink")
+local MainSection = Main:NewSection("Drink Seller")
+
+MainSection:NewButton("Cider+(10.000)", "Buy Cider+", function()
+local args = {
+    [1] = "Cider+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+
+MainSection:NewButton("Lemonade+(10.000)", "Buy Lemonade+", function()
+local args = {
+    [1] = "Lemonade+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+
+MainSection:NewButton("Juice+(10.000)", "Buy Juice+", function()
+local args = {
+    [1] = "Juice+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+
+MainSection:NewButton("Smoothe+(10.000)", "Buy Smoothie+", function()
+local args = {
+    [1] = "Smoothie+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)

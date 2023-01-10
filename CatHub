@@ -264,6 +264,218 @@ end)
 local Main = Window:NewTab("Buy Stuff")
 local MainSection = Main:NewSection("Buy Stuff")
 
+MainSection:NewButton("Cider+ 10x (100.000)", "Buy Cider+ 10x", function()
+local args = {
+    [1] = "Cider+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Cider+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Cider+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Cider+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Cider+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Cider+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Cider+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Cider+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Cider+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Cider+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+
+MainSection:NewButton("Lemonade+ 10x (100.000)", "Buy Lemonade+ 10x", function()
+local args = {
+    [1] = "Lemonade+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Lemonade+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Lemonade+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Lemonade+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Lemonade+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Lemonade+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Lemonade+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Lemonade+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Lemonade+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Lemonade+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+
+MainSection:NewButton("Juice+ (10.000)", "Buy Juice+", function()
+local args = {
+    [1] = "Juice+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Juice+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Juice+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Juice+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Juice+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Juice+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Juice+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Juice+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Juice+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Juice+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+
+MainSection:NewButton("Smoothe+ 10x (100.000)", "Buy Smoothie+ 10x", function()
+local args = {
+    [1] = "Smoothie+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Smoothie+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Smoothie+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Smoothie+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Smoothie+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Smoothie+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Smoothie+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Smoothie+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Smoothie+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+local args = {
+    [1] = "Smoothie+"
+}
+
+workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+end)
+
 MainSection:NewButton("Cider+ (10.000)", "Buy Cider+", function()
 local args = {
     [1] = "Cider+"
@@ -280,17 +492,16 @@ local args = {
 workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
 
-MainSection:NewButton("Juice+ (10.000)", "Buy Juice+", function()
+MainSection:NewButton("Smoothe+ (10.000)", "Buy Smoothie+", function()
 local args = {
-    [1] = "Juice+"
+    [1] = "Smoothie+"
 }
 
 workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
-
-MainSection:NewButton("Smoothe+ (10.000)", "Buy Smoothie+", function()
+MainSection:NewButton("Juice+ (10.000)", "Buy Juice+", funaction()
 local args = {
-    [1] = "Smoothie+"
+    [1] = "Juice+"
 }
 
 workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))

@@ -201,9 +201,12 @@ local ply = game.Players.LocalPlayer.Character.HumanoidRootPart
 ply.CFrame = CFrame.new(pl3) 
 end)
 
+MainSection:NewButton("Hide Name", "Hide Name", function()
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = Cat#2728
+end)
+
 MainSection:NewButton("Admin Menu", "Click Emotes To See", function()
 game:GetService("Players").LocalPlayer.PlayerGui.Emotes.Frame.Spec.Visible = true
-game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text.("Cat#2728")
 end)
 
 MainSection:NewButton("Infinite Yield", "Infinite Yield", function()

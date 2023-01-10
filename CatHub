@@ -499,7 +499,7 @@ local args = {
 
 workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
-MainSection:NewButton("Juice+ (10.000)", "Buy Juice+", funaction()
+MainSection:NewButton("Juice+ (10.000)", "Buy Juice+", function()
 local args = {
     [1] = "Juice+"
 }
@@ -512,7 +512,7 @@ local args = {
     [1] = "Cider"
 }
 
-workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+workspace.Merchants.DrinkMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
 
 MainSection:NewButton("Lemonade (500)", "Buy Lemonade", function()
@@ -520,7 +520,7 @@ local args = {
     [1] = "Lemonade"
 }
 
-workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+workspace.Merchants.DrinkMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
 
 MainSection:NewButton("Juice (500)", "Buy Juice", function()
@@ -528,7 +528,7 @@ local args = {
     [1] = "Juice"
 }
 
-workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+workspace.Merchants.DrinkMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
 
 MainSection:NewButton("Smoothie (500)", "Buy Smoothie", function()
@@ -536,7 +536,7 @@ local args = {
     [1] = "Smoothie"
 }
 
-workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
+workspace.Merchants.DrinkMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
 
 MainSection:NewButton("Dagger (1000)", "Buy Dagger", function()

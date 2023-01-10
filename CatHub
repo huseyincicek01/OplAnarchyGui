@@ -370,7 +370,7 @@ local args = {
 workspace.Merchants.BetterDrinkMerchant.Clickable.Retum:FireServer(unpack(args))
 end)
 
-MainSection:NewButton("Juice+ (10.000)", "Buy Juice+", function()
+MainSection:NewButton("Juice+ 10x (100.000)", "Buy Juice+ 10x", function()
 local args = {
     [1] = "Juice+"
 }

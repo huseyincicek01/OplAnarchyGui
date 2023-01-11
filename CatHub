@@ -692,6 +692,6 @@ MainSection:NewButton("Oak4Blood Hub", "Oak4Blood Hub", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Oak4Blood/One-Piece-Legendary/main/CrimHubNormal')))()
 end)
 
-MainSection:NewButton("Turlte Hub", "Turtle Hub", function()
+MainSection:NewButton("Turtle Hub", "Turtle Hub", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/toaie0112/Turtle-Hub/main/OPL'))()
 end)

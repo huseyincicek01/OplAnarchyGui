@@ -200,10 +200,10 @@ local pl3 = pl2.Backpack.Compass.Poser.Value
 local ply = game.Players.LocalPlayer.Character.HumanoidRootPart 
 ply.CFrame = CFrame.new(pl3) 
 end)
-
-MainSection:NewButton("Admin Menu", "Click Emotes To See", function()
+MainSection:NewButton("Secure Mode", "Secure Mode", function()
 game:GetService("Players").LocalPlayer.PlayerGui.Emotes.Frame.Spec.Visible = true
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "Cat#2728"
+game:GetService("Players").huseyincicek01.PlayerGui.Menu.Frame.C.Frame.Header.Text = "Discord"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.TextColor3 = Color3.new(0, 0, 0)
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Defense.Text = "Defense: 500"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Melee.Text = "Melee: 500"
@@ -211,6 +211,14 @@ game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Sniper.Text 
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Sword.Text = "Sword: 500"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Haki.Text = "Haki: 1000"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.TotalLevel.Text = "Total Level: 3000"
+end)
+
+MainSection:NewButton("Admin Menu", "Click Emotes To See", function()
+game:GetService("Players").LocalPlayer.PlayerGui.Emotes.Frame.Spec.Visible = true
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "Cat#2728"
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Active = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Visible = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Text = "This Gui Made By Cat#2728"
 end)
 
 MainSection:NewButton("Infinite Yield", "Infinite Yield", function()

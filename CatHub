@@ -209,7 +209,8 @@ game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Defense.Text
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Melee.Text = "Melee: 500"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Sniper.Text = "Sniper: 500"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Sword.Text = "Sword: 500"
-game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.TotalLevel.Text = "TotalLevel: 3000"
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Haki.Text = "Haki: 1000"
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.TotalLevel.Text = "Total Level: 3000"
 end)
 
 MainSection:NewButton("Infinite Yield", "Infinite Yield", function()

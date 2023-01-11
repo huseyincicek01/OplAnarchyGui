@@ -210,6 +210,11 @@ MainSection:NewButton("Secure Mode", "Secure Mode", function()
 game:GetService("Players").LocalPlayer.PlayerGui.Emotes.Frame.Spec.Visible = true
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "Cat#2728"
 game:GetService("Players").huseyincicek01.PlayerGui.Menu.Frame.C.Frame.Header.Text = "Discord"
+game:GetService("Players").huseyincicek01.PlayerGui.Menu.Frame.C.Frame.A.Fish.FishAmount.Text = "1000000"
+game:GetService("Players").huseyincicek01.PlayerGui.Menu.Frame.C.Frame.A.Beri.BeriAmount.Text = "10000000000"
+game:GetService("Players").huseyincicek01.PlayerGui.Menu.Frame.C.Frame.A.Gems.GemsAmount.Text = "100000"
+game:GetService("Players").huseyincicek01.PlayerGui.Menu.Frame.C.Frame.A.Bounty.BountyAmount.Text = "10000000000"
+game:GetService("Players").huseyincicek01.PlayerGui.Menu.Frame.C.Frame.A.Kills.KillsAmount.Text = "1000000"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.TextColor3 = Color3.new(0, 0, 0)
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Defense.Text = "Defense: 500"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Melee.Text = "Melee: 500"

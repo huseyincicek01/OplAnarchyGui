@@ -205,6 +205,11 @@ MainSection:NewButton("Admin Menu", "Click Emotes To See", function()
 game:GetService("Players").LocalPlayer.PlayerGui.Emotes.Frame.Spec.Visible = true
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "Cat#2728"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.TextColor3 = Color3.new(0, 0, 0)
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Defense.Text = "Defense: 500"
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Melee.Text = "Melee: 500"
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Sniper.Text = "Sniper: 500"
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Sword.Text = "Sword: 500"
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.TotalLevel.Text = "TotalLevel: 3000"
 end)
 
 MainSection:NewButton("Infinite Yield", "Infinite Yield", function()

@@ -6,6 +6,11 @@ local MainSection = Main:NewSection("Npc Stuff")
 --script
 MainSection:NewButton("Santa", "Gives Santa Present", function()
     workspace.Merchants.SantaMerchant.Clickable.Retum:FireServer()
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.Active = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.Visible = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Active = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Visible = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Text = "Santa Will Be Back In Next Christmas"
 end)
 
 MainSection:NewButton("Open Sam", "Open Sam", function() 
@@ -200,6 +205,7 @@ local pl3 = pl2.Backpack.Compass.Poser.Value
 local ply = game.Players.LocalPlayer.Character.HumanoidRootPart 
 ply.CFrame = CFrame.new(pl3) 
 end)
+
 MainSection:NewButton("Secure Mode", "Secure Mode", function()
 game:GetService("Players").LocalPlayer.PlayerGui.Emotes.Frame.Spec.Visible = true
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "Cat#2728"
@@ -211,11 +217,18 @@ game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Sniper.Text 
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Sword.Text = "Sword: 500"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Haki.Text = "Haki: 1000"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.TotalLevel.Text = "Total Level: 3000"
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.Active = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.Visible = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Active = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Visible = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Text = "Secure Mode Started Ur Stats Hidden"
 end)
 
 MainSection:NewButton("Admin Menu", "Click Emotes To See", function()
 game:GetService("Players").LocalPlayer.PlayerGui.Emotes.Frame.Spec.Visible = true
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "Cat#2728"
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.Active = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.Visible = true
 game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Active = true
 game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Visible = true
 game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Text = "This Gui Made By Cat#2728"
@@ -223,6 +236,11 @@ end)
 
 MainSection:NewButton("Infinite Yield", "Infinite Yield", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.Active = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.Visible = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Active = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Visible = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Text = "Infinite Yield Started"
 end)
 
 MainSection:NewToggle("Auto Bring Fruit", "Auto Bring Fruit", function(state) 
@@ -247,7 +265,7 @@ end)
 local Main = Window:NewTab("Auto Farm")
 local MainSection = Main:NewSection("Auto farm")
 
-MainSection:NewButton("Auto Farm Npc", "Use Body Skill Or Gun Or Fruit Skill", function()
+MainSection:NewButton("Auto Farm Npc", "Auto Farm Started", function()
     game:GetService("Workspace").Enemies["Lv8000 Gunner Captain"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv500 Bucky"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv440 Buster"].HumanoidRootPart.CFrame= CFrame.new(6654, 418, -1468)
@@ -275,6 +293,11 @@ MainSection:NewButton("Auto Farm Npc", "Use Body Skill Or Gun Or Fruit Skill", f
     game:GetService("Workspace").Enemies["Lv24 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv30 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6670, 418, -1468)
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.Active = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.Visible = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Active = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Visible = true
+game:GetService("Players").huseyincicek01.PlayerGui.Announcement.Frame.TextLabel.Text = "Use Any Fruit Body Skill Or Gun"
 end)
 
 local Main = Window:NewTab("Buy Stuff")

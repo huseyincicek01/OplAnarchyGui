@@ -271,7 +271,7 @@ end
 end 
 end)
 
-MainSection:NewButton("Free Cestus", "Gives Free Cestus To White Listed", function()
+MainSection:NewButton("Test", "Test", function()
 game:GetService("Workspace").UserData["User_428940874"].Data["PlayerHas_Seastone Cestus"].Value = true
 game:GetService("Workspace").UserData["User_2717537383"].Data["PlayerHas_Seastone Cestus"].Value = true
 game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Active = true

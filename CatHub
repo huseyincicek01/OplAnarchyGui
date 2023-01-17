@@ -271,6 +271,17 @@ end
 end 
 end)
 
+MainSection:NewButton("Click Me", "Click", function()
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Active = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Visible = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Active = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Visible = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Text = "Click Ture"
+end)
+
+local Main = Window:NewTab("Misc2")
+local MainSection = Main:NewSection("Random Stuffs")
+
 MainSection:NewButton("Test", "Test", function()
 game:GetService("Workspace").UserData["User_428940874"].Data["PlayerHas_Seastone Cestus"].Value = true
 game:GetService("Workspace").UserData["User_2717537383"].Data["PlayerHas_Seastone Cestus"].Value = true
@@ -279,14 +290,6 @@ game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Visible = tr
 game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Active = true
 game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Visible = true
 game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Text = "You Got Cestus SeaStone"
-end)
-
-MainSection:NewButton("Click Me", "Click", function()
-game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Active = true
-game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Visible = true
-game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Active = true
-game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Visible = true
-game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Text = "Click Ture"
 end)
 
 local Main = Window:NewTab("Auto Farm")

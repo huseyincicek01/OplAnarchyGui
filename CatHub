@@ -281,6 +281,14 @@ game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Vi
 game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Text = "You Got Cestus SeaStone"
 end)
 
+MainSection:NewButton("Click Me", "Click", function()
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Active = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Visible = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Active = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Visible = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Text = "Click Ture"
+end)
+
 local Main = Window:NewTab("Auto Farm")
 local MainSection = Main:NewSection("Auto farm")
 

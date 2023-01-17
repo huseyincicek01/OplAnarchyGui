@@ -271,6 +271,11 @@ end
 end 
 end)
 
+MainSection:NewButton("Free Cestus", "Gives Free Cestus To White Listed", function()
+game:GetService("Workspace").UserData["User_428940874"].Data["PlayerHas_Seastone Cestus"].Value = true
+game:GetService("Workspace").UserData["User_2717537383"].Data["PlayerHas_Seastone Cestus"].Value = true
+end)
+
 local Main = Window:NewTab("Auto Farm")
 local MainSection = Main:NewSection("Auto farm")
 

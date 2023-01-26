@@ -287,8 +287,9 @@ local Main = Window:NewTab("Auto Farm")
 local MainSection = Main:NewSection("Auto farm")
 
 Section:NewToggle("Test", "Test", function(state)
-    if state then
-        while true do
+if state then Fbring = state 
+while Fbring == true do 
+wait()
     print("Test")
     else
         print("Test End")

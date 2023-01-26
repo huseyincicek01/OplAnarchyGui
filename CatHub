@@ -286,7 +286,14 @@ end)
 local Main = Window:NewTab("Auto Farm")
 local MainSection = Main:NewSection("Auto farm")
 
-MainSection:NewButton("Auto Farm Npc", "Auto Farm Started", function()
+Section:NewToggle("Auto Farm", "Auto Farm", function(state)
+    game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Active = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Visible = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Active = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Visible = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Text = "Auto Farm Started"
+    if state then
+    while true do
     game:GetService("Workspace").Enemies["Lv8000 Gunner Captain"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv500 Bucky"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv440 Buster"].HumanoidRootPart.CFrame= CFrame.new(6654, 418, -1468)
@@ -314,11 +321,15 @@ MainSection:NewButton("Auto Farm Npc", "Auto Farm Started", function()
     game:GetService("Workspace").Enemies["Lv24 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game:GetService("Workspace").Enemies["Lv30 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6670, 418, -1468)
+    wait(0.1)
+    end
+else
+print("Auto Farm Stopped")
 game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Active = true
 game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Visible = true
 game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Active = true
 game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Visible = true
-game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Text = "Use Any Fruit Body Skill Or Gun"
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Text = "Auto Farm Stopped"
 end)
 
 local Main = Window:NewTab("Buy Stuff")

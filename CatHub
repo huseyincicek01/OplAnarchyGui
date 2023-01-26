@@ -285,18 +285,37 @@ end)
 
 local Main = Window:NewTab("Auto Farm")
 local MainSection = Main:NewSection("Auto farm")
-
-Section:NewToggle("Test", "Test", function(state)
-if state then Fbring = state 
-while Fbring == true do 
-wait() 
-    print("Test")
-    else
-if state then Fbring = state 
-while Fbring == true do 
-wait() 
-        print("Test End")
-    end
+    game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Visible = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Active = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Visible = true
+game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.TextLabel.Text = "Use Any Fruit Body Skill Or Gun"
+    game:GetService("Workspace").Enemies["Lv8000 Gunner Captain"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv500 Bucky"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv440 Buster"].HumanoidRootPart.CFrame= CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv360 Bruno"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv32 Fredric"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv28 Friedrich"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv36 Gunslinger"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv14 Bandit"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv15 Bandit"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv14 Boar"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv29 Frued"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv22 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv34 Freddi"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv17 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv24 Gunslinger"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv35 Angry Bobb"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv50 Gunslinger"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv9 Bandit"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv24 Fred"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv4 Freddy"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv11 Boar"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv28 Fredde"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv40 Cave Demon"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv4 Boar"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv24 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game:GetService("Workspace").Enemies["Lv30 Thug"].HumanoidRootPart.CFrame = CFrame.new(6654, 418, -1468)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6670, 418, -1468)
 end)
 
 local Main = Window:NewTab("Buy Stuff")

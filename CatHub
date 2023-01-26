@@ -289,9 +289,12 @@ local MainSection = Main:NewSection("Auto farm")
 Section:NewToggle("Test", "Test", function(state)
 if state then Fbring = state 
 while Fbring == true do 
-wait()
+wait() 
     print("Test")
     else
+if state then Fbring = state 
+while Fbring == true do 
+wait() 
         print("Test End")
     end
 end)

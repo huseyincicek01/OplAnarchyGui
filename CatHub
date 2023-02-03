@@ -694,6 +694,6 @@ MainSection:NewButton("Turtle Hub", "Turtle Hub", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/toaie0112/Turtle-Hub/main/OPL'))()
 end)
 
-MainSection:NewButton("Turtle Hub", "Turtle Hub", function()
+MainSection:NewButton("Ren Hub", "Turtle Hub", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/NeonGreen1/NeonHub/main/NeonHub.txt')))()
 end)

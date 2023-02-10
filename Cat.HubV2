@@ -1,0 +1,22 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Pop%20UI%20Lib", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Pop%20UI%20Lib", true))()
+
+local ui = library:Tab("Haki")
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Pop%20UI%20Lib", true))()
+
+local ui = library:Tab("Haki")
+
+ui:Button("Haki", function(state)
+    MainSection:NewButton("Haki levels", "Grinds ur haki level", function(state)
+local pl = tostring(game:GetService("Players").LocalPlayer.UserId)
+local lv = game:GetService("Workspace").UserData["User_"..pl].Data.HakiLevel.Value
+for i = 1,25 do
+while wait() do
+workspace.UserData["User_"..pl].III:FireServer("On", lv)
+wait()
+workspace.UserData["User_"..pl].III:FireServer("On", lv)
+wait()
+workspace.UserData["User_"..pl].III:FireServer("Off", lv)
+wait()
+workspace.UserData["User_"..pl].III:FireServer("Off", lv) 
+end)

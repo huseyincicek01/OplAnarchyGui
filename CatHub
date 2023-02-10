@@ -6,10 +6,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Cat Hub V2 | This Gui Made By Cat#2728", "DarkTheme")
 
 local Main = Window:NewTab("Haki")
-local MainSection = Tab:NewSection("Select a method")
-
 MainSection:NewButton("Haki levels", "Grinds ur haki level", function(state)
-
 local pl = tostring(game:GetService("Players").LocalPlayer.UserId)
 local lv = game:GetService("Workspace").UserData["User_"..pl].Data.HakiLevel.Value
 for i = 1,25 do

@@ -5,7 +5,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Cat Hub V2 | This Gui Made By Cat#2728", "DarkTheme")
 
-local Main = Window:NewTab("Haki")
+Main = Window:NewTab("Haki")
+local MainSection = Main:NewSection("Haki Farm")
 MainSection:NewButton("Haki levels", "Grinds ur haki level", function(state)
 local pl = tostring(game:GetService("Players").LocalPlayer.UserId)
 local lv = game:GetService("Workspace").UserData["User_"..pl].Data.HakiLevel.Value

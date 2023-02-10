@@ -3,7 +3,7 @@ getgenv().WebhookHere =
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/WebHook4003.lua"))()
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Cat Hub V 1.8.8 | This Gui Made By Cat#2728", "DarkTheme")
+local Window = Library.CreateLib("Cat Hub V2 | This Gui Made By Cat#2728", "DarkTheme")
 
 local Main = Window:NewTab("Haki")
 local MainSection = Tab:NewSection("Select a method")

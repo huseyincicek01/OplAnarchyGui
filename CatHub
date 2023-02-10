@@ -19,7 +19,6 @@ end)
 local Main = Window:NewTab("Teleport")
 local MainSection = Main:NewSection("Teleport Npc")
 
---script
 MainSection:NewButton("Sam", "Teleports you to Sam", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1302, 218, -1353)
 end)
@@ -203,10 +202,6 @@ local pl2 = game:GetService("Players").LocalPlayer
 local pl3 = pl2.Backpack.Compass.Poser.Value
 local ply = game.Players.LocalPlayer.Character.HumanoidRootPart 
 ply.CFrame = CFrame.new(pl3) 
-end)
-
-MainSection:NewButton("Run", "Be Fast Than Ur Dad", function()
-game.Players.LocalPlayer.Character.Humanoid.Walkspeed = 150
 end)
 
 MainSection:NewButton("Secure Mode", "Secure Mode", function()

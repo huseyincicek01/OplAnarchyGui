@@ -5,9 +5,26 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Cat Hub V 1.8.8 | This Gui Made By Cat#2728", "DarkTheme")
 
-local Main = Window:NewTab("Npc")
+local Main = Window:NewTab("Haki")
+local MainSection = Tab:NewSection("Select a method")
+MainSection:NewButton("Haki levels", "Grinds ur haki level", function(state)
+local pl = tostring(game:GetService("Players").LocalPlayer.UserId)
+local lv = game:GetService("Workspace").UserData["User_"..pl].Data.HakiLevel.Value
+for i = 1,25 do
+while wait() do
+workspace.UserData["User_"..pl].III:FireServer("On", lv)
+wait()
+workspace.UserData["User_"..pl].III:FireServer("On", lv)
+wait()
+workspace.UserData["User_"..pl].III:FireServer("Off", lv)
+wait()
+workspace.UserData["User_"..pl].III:FireServer("Off", lv) 
+end
+end
+end)
+
+Main = Window:NewTab("Npc")
 local MainSection = Main:NewSection("Npc Stuff")
---script
 MainSection:NewButton("Santa", "Gives Santa Present", function()
     workspace.Merchants.SantaMerchant.Clickable.Retum:FireServer()
 game:GetService("Players").LocalPlayer.PlayerGui.Announcement.Frame.Active = true

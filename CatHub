@@ -201,7 +201,7 @@ MainSection:NewButton("Haki levels", "Grinds ur haki level", function(state)
 local pl = tostring(game:GetService("Players").LocalPlayer.UserId)
 local lv = game:GetService("Workspace").UserData["User_"..pl].Data.HakiLevel.Value
 for i = 1,25 do
-while wait() do
+while pl true do
 workspace.UserData["User_"..pl].III:FireServer("On", lv)
 wait()
 workspace.UserData["User_"..pl].III:FireServer("On", lv)
@@ -209,6 +209,7 @@ wait()
 workspace.UserData["User_"..pl].III:FireServer("Off", lv)
 wait()
 workspace.UserData["User_"..pl].III:FireServer("Off", lv) 
+wait()
 end)
 
 MainSection:NewButton("Go to compass", "go to compass", function() 

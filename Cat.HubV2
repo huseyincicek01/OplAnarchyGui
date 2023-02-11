@@ -3,5 +3,5 @@ local x = getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Chilly
 local vp = x.VTCrv 
 while true do 
 wait() 
-game:GetService("Players").LocalPlayer.Character.Powers.Chilly.RemoteEvent:FireServer(vp,"ChillyPower11", "StopCharging",v.HumanoidRootPart.CFrame,workspace.IslandCaver.Stones.Stone, 100) 
+game:GetService("Players").LocalPlayer.Character.Powers.Chilly.RemoteEvent:FireServer(vp,"ChillyPower5", "StopCharging",v.HumanoidRootPart.CFrame,workspace.IslandCaver.Stones.Stone, 100) 
 end

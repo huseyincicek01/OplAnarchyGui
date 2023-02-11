@@ -1,11 +1,9 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Pop%20UI%20Lib", true))()
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Pop%20UI%20Lib", true))()
-
-local ui = library:Tab("Tab")
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Pop%20UI%20Lib", true))()
-
-local ui = library:Tab("Tab")
-
-ui:Button("Button", function()
-    print("yes")
-end)
+_G.AutoChilly = true 
+local x = getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Chilly) 
+local vp = x.VTCrv 
+while _G.AutoChilly do 
+wait() 
+for i,v in pairs(game:GetService("Workspace"):GetChildren()) do 
+if v.Name == Choose2 then 
+game:GetService("Players").LocalPlayer.Character.Powers.Chilly.RemoteEvent:FireServer(vp,"ChillyPower11", "StopCharging",v.HumanoidRootPart.CFrame,workspace.IslandCaver.Stones.Stone, 100) 
+end
